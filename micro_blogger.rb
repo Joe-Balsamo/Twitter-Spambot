@@ -5,5 +5,6 @@ class MicroBlogger
 
   def initialize
     puts "Initializing MicroBlogger"
+    @client = JumpstartAuth.twitter
   end
 end
